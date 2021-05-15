@@ -30,7 +30,6 @@ body{
  }
 
  img{
-    float: left;
     border-radius: 99%;
     border-color: black;
     margin-top: 10px;

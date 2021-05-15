@@ -53,7 +53,7 @@ body{
      display: block;
      font-size: 60px;
      font-weight: 700;
-     letter-spacing: 0.53vw;
+     letter-spacing: 0.5vw;
      margin-bottom: px;
      position: relative;
      animation: textA 2s -0.75s;
@@ -70,10 +70,10 @@ body{
  }
 
  @keyframes textA {
-     0% {margin-bottom: -60px;letter-spacing: 0.53vw;}
-     30% {margin-bottom: -51px;letter-spacing: 1.647vw;}
-     85% {margin-bottom: -51px;letter-spacing: 0.83vw;}
-     100% {margin-bottom: 0px;letter-spacing: 0.53vw;}
+     0% {margin-bottom: -60px;letter-spacing: 0.5vw;}
+     30% {margin-bottom: -51px;letter-spacing: 1.646vw;}
+     85% {margin-bottom: -51px;letter-spacing: 0.8vw;}
+     100% {margin-bottom: 0px;letter-spacing: 0.5vw;}
  }
 
  /* .hello{

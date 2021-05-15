@@ -29,8 +29,8 @@ body{
     max-width: 500px;
  }
 
- .myself img{
-    float: left;
+ img{
+    margin: auto;
     border-radius: 99%;
     border-color: black;
     margin-top: 10px;
@@ -53,9 +53,9 @@ body{
      font-size: 60px;
      font-weight: 700;
      letter-spacing: 8px;
-     margin-bottom: 3px;
+     margin-bottom: 0px;
      position: relative;
-     animation: textA 3s -0.5s;
+     animation: textA 3s -0.75s;
  }
 
  span.textB{
@@ -71,10 +71,10 @@ body{
      0% {margin-bottom: -60px;letter-spacing: 8px;}
      30% {margin-bottom: -51px;letter-spacing: 25px;}
      85% {margin-bottom: -51px;letter-spacing: 8px;}
-     100% {margin-bottom: 3px;letter-spacing: 8px;}
+     100% {margin-bottom: 0px;letter-spacing: 8px;}
  }
 
- .hello{
+ /* .hello{
      position: relative;
      left: 4%;
      font-family: sans-serif;
@@ -82,19 +82,19 @@ body{
      font-size: 20px;
      font-style: italic;
      font-weight: 600;
- }
+ } */
 
   .intro{ 
      color: whitesmoke;
-     display: block;
-     max-width: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 8vh;
+     max-width: 60%;
      max-height: 60%;
      font-family: 'Merienda One', cursive;
      font-size: 30px;
      letter-spacing: normal;
-     position: absolute;
-     top: 36%;
-     left: 45%;
+     position: static;
  }
 
  .footer{
@@ -102,8 +102,7 @@ body{
      font-size: 20px;
      letter-spacing: 1px;
      font-family: 'Pangolin', cursive;
-     position: absolute;
-     bottom: 5%;
-     width: 100%;
+     position: static;
      text-align: center;
+     margin-top: 2vh;
  }
